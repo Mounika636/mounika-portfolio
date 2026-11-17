@@ -39,6 +39,18 @@ export default function Contact() {
           >
             GitHub ↗
           </a>
+
+
+<a
+  href="https://www.linkedin.com/in/chmounikacherukuru/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-lg border border-slate-700 px-7 py-4 text-sm font-semibold text-white transition hover:border-blue-400"
+>
+  LinkedIn ↗
+</a>
+
+
         </div>
 
         <div className="mt-16 border-t border-slate-800 pt-8">
