@@ -1,6 +1,7 @@
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import About from "@/components/About";
+import MobileNavigation from "@/components/MobileNavigation";
 import ProjectCard from "@/components/ProjectCard";
 export default function Home() {
   return (
@@ -32,36 +33,10 @@ export default function Home() {
     </a>
   </div>
 
-  {/* Mobile Navigation */}
-  <details className="group relative md:hidden">
-    <summary
-      className="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-slate-700 px-3 py-2 text-sm text-slate-300 [&::-webkit-details-marker]:hidden"
-      aria-label="Toggle navigation menu"
-    >
-      Menu
-      <span className="text-blue-400 transition-transform group-open:rotate-180">
-        ▾
-      </span>
-    </summary>
+ 
+{/* Mobile Navigation */}
+<MobileNavigation />
 
-    <div className="absolute right-0 top-full mt-3 flex w-44 flex-col gap-1 rounded-xl border border-slate-700 bg-[#111A27] p-2 shadow-xl">
-      <a href="#work" className="rounded-lg px-3 py-2 text-sm text-slate-300 hover:bg-slate-800">
-        Projects
-      </a>
-
-      <a href="#about" className="rounded-lg px-3 py-2 text-sm text-slate-300 hover:bg-slate-800">
-        About
-      </a>
-
-      <a href="#experience" className="rounded-lg px-3 py-2 text-sm text-slate-300 hover:bg-slate-800">
-        Experience
-      </a>
-
-      <a href="#contact" className="rounded-lg px-3 py-2 text-sm text-slate-300 hover:bg-slate-800">
-        Contact
-      </a>
-    </div>
-  </details>
 </nav>
 
 
